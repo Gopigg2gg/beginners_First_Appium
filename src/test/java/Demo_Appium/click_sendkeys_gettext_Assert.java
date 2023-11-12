@@ -24,7 +24,7 @@ public class click_sendkeys_gettext_Assert {
 				cap.setCapability ("platformVersion" , "13");
 				cap.setCapability ("appPackage","io.appium.android.apis");
 				cap.setCapability ("appActivity",".ApiDemos");
-				cap.setCapability("automationName", "UiAutomator
+				cap.setCapability("automationName", "UiAutomator);
 				
 				AndroidDriver driver = new AndroidDriver (new URL ("http://127.0.0.1:4723/"),cap);
 				
